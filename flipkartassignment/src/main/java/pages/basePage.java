@@ -1,9 +1,12 @@
 package pages;
 
+import java.io.IOException;
 import java.lang.reflect.Method;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -34,6 +37,8 @@ public class basePage {
 	ChromeOptions option = new ChromeOptions();
 	FirefoxOptions option1 = new FirefoxOptions();
 	EdgeOptions option2 = new EdgeOptions();
+	
+	Logger log = LogManager.getLogger(basePage.class);
 	
 	
 	@BeforeSuite
@@ -84,13 +89,14 @@ public class basePage {
 	}
 	
 	@AfterMethod
-	public void status(ITestResult result) {
+	public void status(ITestResult result) throws IOException {
 		if(result.getStatus()==ITestResult.SUCCESS)
 			test.log(LogStatus.PASS, "Test case got passed");
 		else if (result.getStatus()==ITestResult.FAILURE) {
-			ScreenShots.takeScreenShot(driver, result.getName());
+			String str = ScreenShots.takeScreenShot(driver, result.getTestContext().getName());
 			test.log(LogStatus.ERROR, result.getThrowable());
-			test.log(LogStatus.FAIL, "Test case got failed");
+			test.log(LogStatus.FAIL, test.addScreenCapture(str));
+			log.info("Screenshot capured on Failure");
 		}
 		extent.flush();
 	}
