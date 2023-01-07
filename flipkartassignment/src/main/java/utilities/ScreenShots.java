@@ -1,6 +1,6 @@
 package utilities;
 
-import java.io.File;
+import java.io.*;
 import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
@@ -10,9 +10,9 @@ import org.openqa.selenium.WebDriver;
 
 public class ScreenShots {
 	
-	public static void takeScreenShot(WebDriver driver, String fileName) {
+	public static String takeScreenShot(WebDriver driver, String fileName) throws IOException {
 
-		String screenshotFileName = System.getProperty("user.dir") + "\\screenshots\\" + fileName+".jpg";
+		String screenshotFileName = System.getProperty("user.dir") + "\\screenshots\\"+fileName+System.currentTimeMillis()+".jpg";
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
 		try {
@@ -26,5 +26,6 @@ public class ScreenShots {
 			e.printStackTrace();
 
 		}
+		return screenshotFileName;
 	}
 }
