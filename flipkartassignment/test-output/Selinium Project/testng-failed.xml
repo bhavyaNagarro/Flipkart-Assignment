@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selinium Project]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HomeApplianceSection(failed)">
+    <classes>
+      <class name="testcases.HomeApplianceSectionTest">
+        <methods>
+          <include name="homeApplianceSection"/>
+          <include name="navigateToURL"/>
+          <include name="startTest"/>
+          <include name="status"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.HomeApplianceSectionTest -->
+    </classes>
+  </test> <!-- HomeApplianceSection(failed) -->
+</suite> <!-- Failed suite [Selinium Project] -->

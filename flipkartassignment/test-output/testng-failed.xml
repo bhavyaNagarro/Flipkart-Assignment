@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Flipkart Selinium Project]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SellerRegister(failed)">
+    <classes>
+      <class name="testcases.SellerRegisterTest">
+        <methods>
+          <include name="registerSeller"/>
+          <include name="navigateToURL"/>
+          <include name="startTest"/>
+          <include name="status"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.SellerRegisterTest -->
+    </classes>
+  </test> <!-- SellerRegister(failed) -->
+  <test thread-count="5" name="SellerLogin(failed)">
+    <classes>
+      <class name="testcases.SellerLoginTest">
+        <methods>
+          <include name="navigateToURL"/>
+          <include name="startTest"/>
+          <include name="loginSeller"/>
+          <include name="status"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.SellerLoginTest -->
+    </classes>
+  </test> <!-- SellerLogin(failed) -->
+  <test thread-count="5" name="CartSection(failed)">
+    <classes>
+      <class name="testcases.CartSectionTest">
+        <methods>
+          <include name="cartSectionTest"/>
+          <include name="startTest"/>
+          <include name="navigateToURL"/>
+          <include name="status"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.CartSectionTest -->
+    </classes>
+  </test> <!-- CartSection(failed) -->
+  <test thread-count="5" name="HelpCenter(failed)">
+    <classes>
+      <class name="testcases.HelpCenterTest">
+        <methods>
+          <include name="navigateToURL"/>
+          <include name="startTest"/>
+          <include name="status"/>
+          <include name="tearDown"/>
+          <include name="cartSectionTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.HelpCenterTest -->
+    </classes>
+  </test> <!-- HelpCenter(failed) -->
+</suite> <!-- Failed suite [Flipkart Selinium Project] -->
