@@ -1,5 +1,6 @@
 package testcases;
 
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 import org.apache.log4j.*;
 
@@ -13,8 +14,18 @@ public class PrivacyPolicyTest extends basePage {
 	
 	Logger log = LogManager.getLogger(PrivacyPolicyTest.class);
 	
-	@Test
-	public void privacyPolicy() {
+	@Test(priority=12)
+	public void privacyPolicy() throws Throwable {
+		
+		// ------------------------- Test Data from Excel File --------------------------------------
+		if (ExcelData.isExecuteCase("privacypolicy").equalsIgnoreCase("no"))
+            throw new SkipException("Skiped");
+		
+		//  ----------  Check if popup(login) appears automatically while running other tests, close the popup
+		try {
+			driver.findElement(privacyPolicy.close_popup).click();
+			test.log(LogStatus.INFO, "Close Popup button got clicked");
+		}catch(Exception e) { }
 		
 		driver.findElement(privacyPolicy.login_btn).click();
 		test.log(LogStatus.INFO, "Redicrected to Login Popup");

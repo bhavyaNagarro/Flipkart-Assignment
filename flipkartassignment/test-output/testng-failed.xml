@@ -1,60 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Flipkart Selinium Project]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="SellerRegister(failed)">
+  <test thread-count="5" name="SearchProduct(failed)">
     <classes>
-      <class name="testcases.SellerRegisterTest">
+      <class name="testcases.SearchProductTest">
         <methods>
-          <include name="registerSeller"/>
+          <include name="search"/>
           <include name="navigateToURL"/>
           <include name="startTest"/>
           <include name="status"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testcases.SellerRegisterTest -->
+      </class> <!-- testcases.SearchProductTest -->
     </classes>
-  </test> <!-- SellerRegister(failed) -->
-  <test thread-count="5" name="SellerLogin(failed)">
+  </test> <!-- SearchProduct(failed) -->
+  <test thread-count="5" name="SellingGuide(failed)">
     <classes>
-      <class name="testcases.SellerLoginTest">
+      <class name="testcases.SellingGuideTest">
         <methods>
-          <include name="navigateToURL"/>
-          <include name="startTest"/>
-          <include name="loginSeller"/>
-          <include name="status"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testcases.SellerLoginTest -->
-    </classes>
-  </test> <!-- SellerLogin(failed) -->
-  <test thread-count="5" name="CartSection(failed)">
-    <classes>
-      <class name="testcases.CartSectionTest">
-        <methods>
-          <include name="cartSectionTest"/>
-          <include name="startTest"/>
-          <include name="navigateToURL"/>
-          <include name="status"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testcases.CartSectionTest -->
-    </classes>
-  </test> <!-- CartSection(failed) -->
-  <test thread-count="5" name="HelpCenter(failed)">
-    <classes>
-      <class name="testcases.HelpCenterTest">
-        <methods>
+          <include name="sellingGuide"/>
           <include name="navigateToURL"/>
           <include name="startTest"/>
           <include name="status"/>
           <include name="tearDown"/>
-          <include name="cartSectionTest"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testcases.HelpCenterTest -->
+      </class> <!-- testcases.SellingGuideTest -->
     </classes>
-  </test> <!-- HelpCenter(failed) -->
+  </test> <!-- SellingGuide(failed) -->
 </suite> <!-- Failed suite [Flipkart Selinium Project] -->

@@ -3,6 +3,8 @@ package pages;
 import org.openqa.selenium.By;
 
 public class grocerySection {
+	
+	public static By close_popup = By.xpath("//button[contains(text(),'✕')]");
 
 	public static By grocery_link = By.xpath("//body/div[@id='container']/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/div[1]/div[1]/img[1]");
 	

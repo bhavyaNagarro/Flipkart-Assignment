@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="20" passed="16" failed="4" skipped="0">
+<testng-results ignored="0" total="20" passed="18" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-07T00:11:49 IST" name="Flipkart Selinium Project" finished-at="2023-01-07T00:17:04 IST" duration-ms="315479">
+  <suite started-at="2023-01-10T19:51:51 IST" name="Flipkart Selinium Project" finished-at="2023-01-10T20:17:20 IST" duration-ms="1528711">
     <groups>
     </groups>
-    <test started-at="2023-01-07T00:11:49 IST" name="LoginTest" finished-at="2023-01-07T00:12:13 IST" duration-ms="23740">
+    <test started-at="2023-01-10T19:51:51 IST" name="LoginTest" finished-at="2023-01-10T19:52:29 IST" duration-ms="37696">
       <class name="testcases.LoginTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.LoginTest@49c90a9c]" started-at="2023-01-07T00:11:49 IST" name="navigateToURL" finished-at="2023-01-07T00:12:12 IST" duration-ms="23160" status="PASS">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.LoginTest@147e2ae7]" started-at="2023-01-10T19:51:51 IST" name="navigateToURL" finished-at="2023-01-10T19:52:28 IST" duration-ms="36640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.LoginTest@49c90a9c]" started-at="2023-01-07T00:12:12 IST" name="startTest" finished-at="2023-01-07T00:12:12 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.LoginTest@147e2ae7]" started-at="2023-01-10T19:52:28 IST" name="startTest" finished-at="2023-01-10T19:52:28 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.LoginTest.login()]]>
+                <![CDATA[public void testcases.LoginTest.login() throws java.lang.Throwable]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="login()[pri:0, instance:testcases.LoginTest@49c90a9c]" started-at="2023-01-07T00:12:12 IST" name="login" finished-at="2023-01-07T00:12:12 IST" duration-ms="209" status="PASS">
+        <test-method signature="login()[pri:1, instance:testcases.LoginTest@147e2ae7]" started-at="2023-01-10T19:52:28 IST" name="login" finished-at="2023-01-10T19:52:28 IST" duration-ms="760" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.LoginTest@49c90a9c]" started-at="2023-01-07T00:12:12 IST" name="status" finished-at="2023-01-07T00:12:13 IST" duration-ms="343" status="PASS">
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.LoginTest@147e2ae7]" started-at="2023-01-10T19:52:28 IST" name="status" finished-at="2023-01-10T19:52:29 IST" duration-ms="268" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login status=SUCCESS method=LoginTest.login()[pri:0, instance:testcases.LoginTest@49c90a9c] output={null}]]]>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginTest.login()[pri:1, instance:testcases.LoginTest@147e2ae7] output={null}]]]>
               </value>
             </param>
           </params>
@@ -39,32 +39,101 @@
         </test-method> <!-- status -->
       </class> <!-- testcases.LoginTest -->
     </test> <!-- LoginTest -->
-    <test started-at="2023-01-07T00:12:13 IST" name="SearchProduct" finished-at="2023-01-07T00:12:14 IST" duration-ms="1795">
+    <test started-at="2023-01-10T19:52:29 IST" name="SearchProduct" finished-at="2023-01-10T19:53:32 IST" duration-ms="63349">
       <class name="testcases.SearchProductTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.SearchProductTest@4b8729ff]" started-at="2023-01-07T00:12:13 IST" name="navigateToURL" finished-at="2023-01-07T00:12:14 IST" duration-ms="1460" status="PASS">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.SearchProductTest@4149c063]" started-at="2023-01-10T19:52:29 IST" name="navigateToURL" finished-at="2023-01-10T19:52:31 IST" duration-ms="2685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method signature="search()[pri:0, instance:testcases.SearchProductTest@4b8729ff]" started-at="2023-01-07T00:12:14 IST" name="search" finished-at="2023-01-07T00:12:14 IST" duration-ms="292" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.SearchProductTest@4b8729ff]" started-at="2023-01-07T00:12:14 IST" name="startTest" finished-at="2023-01-07T00:12:14 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.SearchProductTest@4149c063]" started-at="2023-01-10T19:52:31 IST" name="startTest" finished-at="2023-01-10T19:52:31 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.SearchProductTest.search()]]>
+                <![CDATA[public void testcases.SearchProductTest.search() throws java.lang.Throwable]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.SearchProductTest@4b8729ff]" started-at="2023-01-07T00:12:14 IST" name="status" finished-at="2023-01-07T00:12:14 IST" duration-ms="41" status="PASS">
+        <test-method signature="search()[pri:2, instance:testcases.SearchProductTest@4149c063]" started-at="2023-01-10T19:52:31 IST" name="search" finished-at="2023-01-10T19:53:31 IST" duration-ms="60110" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'✕')]"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'IN-PG02A6JS', ip: '192.168.41.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4198a5fb52a503056e4adecb35fabfa2, findElement {using=xpath, value=//button[contains(text(),'✕')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\BHAVYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57540}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57540/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4198a5fb52a503056e4adecb35fabfa2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'✕')]"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'IN-PG02A6JS', ip: '192.168.41.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4198a5fb52a503056e4adecb35fabfa2, findElement {using=xpath, value=//button[contains(text(),'✕')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\BHAVYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57540}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57540/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4198a5fb52a503056e4adecb35fabfa2
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at testcases.SearchProductTest.search(SearchProductTest.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.SearchProductTest@4149c063]" started-at="2023-01-10T19:53:31 IST" name="status" finished-at="2023-01-10T19:53:32 IST" duration-ms="540" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=search status=SUCCESS method=SearchProductTest.search()[pri:0, instance:testcases.SearchProductTest@4b8729ff] output={null}]]]>
+                <![CDATA[[TestResult name=search status=FAILURE method=SearchProductTest.search()[pri:2, instance:testcases.SearchProductTest@4149c063] output={null}]]]>
               </value>
             </param>
           </params>
@@ -73,234 +142,32 @@
         </test-method> <!-- status -->
       </class> <!-- testcases.SearchProductTest -->
     </test> <!-- SearchProduct -->
-    <test started-at="2023-01-07T00:12:14 IST" name="SellerRegister" finished-at="2023-01-07T00:13:18 IST" duration-ms="63954">
-      <class name="testcases.SellerRegisterTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.SellerRegisterTest@2bdd8394]" started-at="2023-01-07T00:12:14 IST" name="navigateToURL" finished-at="2023-01-07T00:12:16 IST" duration-ms="1169" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.SellerRegisterTest@2bdd8394]" started-at="2023-01-07T00:12:16 IST" name="startTest" finished-at="2023-01-07T00:12:16 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testcases.SellerRegisterTest.registerSeller()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="registerSeller()[pri:0, instance:testcases.SellerRegisterTest@2bdd8394]" started-at="2023-01-07T00:12:16 IST" name="registerSeller" finished-at="2023-01-07T00:13:18 IST" duration-ms="62632" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: headless chrome=108.0.5359.125)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'IN-PG02A6JS', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ed0f44740028a49c0deedbe9c4b0ca9c, clickElement {id=e98cc225-deca-41b8-b95f-7ff5b77a9a7c}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\BHAVYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64190/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (ed0f44740028a49c0deedbe9c4b0ca9c)] -> xpath: //body/div[@id='app']/div[1]/div[1]/div[2]/div[2]]
-Session ID: ed0f44740028a49c0deedbe9c4b0ca9c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: headless chrome=108.0.5359.125)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'IN-PG02A6JS', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ed0f44740028a49c0deedbe9c4b0ca9c, clickElement {id=e98cc225-deca-41b8-b95f-7ff5b77a9a7c}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\BHAVYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64190/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (ed0f44740028a49c0deedbe9c4b0ca9c)] -> xpath: //body/div[@id='app']/div[1]/div[1]/div[2]/div[2]]
-Session ID: ed0f44740028a49c0deedbe9c4b0ca9c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at testcases.SellerRegisterTest.registerSeller(SellerRegisterTest.java:26)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerSeller -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.SellerRegisterTest@2bdd8394]" started-at="2023-01-07T00:13:18 IST" name="status" finished-at="2023-01-07T00:13:18 IST" duration-ms="138" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=registerSeller status=FAILURE method=SellerRegisterTest.registerSeller()[pri:0, instance:testcases.SellerRegisterTest@2bdd8394] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- status -->
-      </class> <!-- testcases.SellerRegisterTest -->
-    </test> <!-- SellerRegister -->
-    <test started-at="2023-01-07T00:13:18 IST" name="SellerLogin" finished-at="2023-01-07T00:14:25 IST" duration-ms="66741">
-      <class name="testcases.SellerLoginTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.SellerLoginTest@2eea88a1]" started-at="2023-01-07T00:13:18 IST" name="navigateToURL" finished-at="2023-01-07T00:13:21 IST" duration-ms="2949" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.SellerLoginTest@2eea88a1]" started-at="2023-01-07T00:13:21 IST" name="startTest" finished-at="2023-01-07T00:13:21 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testcases.SellerLoginTest.loginSeller()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="loginSeller()[pri:0, instance:testcases.SellerLoginTest@2eea88a1]" started-at="2023-01-07T00:13:21 IST" name="loginSeller" finished-at="2023-01-07T00:14:25 IST" duration-ms="63628" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: headless chrome=108.0.5359.125)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'IN-PG02A6JS', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ed0f44740028a49c0deedbe9c4b0ca9c, clickElement {id=179ad440-7e10-4711-a662-85b271d5ae58}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\BHAVYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64190/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (ed0f44740028a49c0deedbe9c4b0ca9c)] -> xpath: //body/div[@id='app']/div[1]/div[1]/div[2]/div[2]]
-Session ID: ed0f44740028a49c0deedbe9c4b0ca9c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: headless chrome=108.0.5359.125)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'IN-PG02A6JS', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ed0f44740028a49c0deedbe9c4b0ca9c, clickElement {id=179ad440-7e10-4711-a662-85b271d5ae58}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\BHAVYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64190/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (ed0f44740028a49c0deedbe9c4b0ca9c)] -> xpath: //body/div[@id='app']/div[1]/div[1]/div[2]/div[2]]
-Session ID: ed0f44740028a49c0deedbe9c4b0ca9c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at testcases.SellerLoginTest.loginSeller(SellerLoginTest.java:25)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginSeller -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.SellerLoginTest@2eea88a1]" started-at="2023-01-07T00:14:25 IST" name="status" finished-at="2023-01-07T00:14:25 IST" duration-ms="158" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginSeller status=FAILURE method=SellerLoginTest.loginSeller()[pri:0, instance:testcases.SellerLoginTest@2eea88a1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- status -->
-      </class> <!-- testcases.SellerLoginTest -->
-    </test> <!-- SellerLogin -->
-    <test started-at="2023-01-07T00:14:25 IST" name="GrocerySection" finished-at="2023-01-07T00:14:27 IST" duration-ms="1855">
+    <test started-at="2023-01-10T19:53:32 IST" name="GrocerySection" finished-at="2023-01-10T19:54:35 IST" duration-ms="62826">
       <class name="testcases.GrocerySectionTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.GrocerySectionTest@2c78324b]" started-at="2023-01-07T00:14:25 IST" name="navigateToURL" finished-at="2023-01-07T00:14:27 IST" duration-ms="1593" status="PASS">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.GrocerySectionTest@53f3bdbd]" started-at="2023-01-10T19:53:32 IST" name="navigateToURL" finished-at="2023-01-10T19:53:35 IST" duration-ms="2539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method signature="grocerySectionTest()[pri:0, instance:testcases.GrocerySectionTest@2c78324b]" started-at="2023-01-07T00:14:27 IST" name="grocerySectionTest" finished-at="2023-01-07T00:14:27 IST" duration-ms="236" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.GrocerySectionTest@53f3bdbd]" started-at="2023-01-10T19:53:35 IST" name="startTest" finished-at="2023-01-10T19:53:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.GrocerySectionTest.grocerySectionTest() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="grocerySectionTest()[pri:3, instance:testcases.GrocerySectionTest@53f3bdbd]" started-at="2023-01-10T19:53:35 IST" name="grocerySectionTest" finished-at="2023-01-10T19:54:35 IST" duration-ms="60258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- grocerySectionTest -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.GrocerySectionTest@2c78324b]" started-at="2023-01-07T00:14:27 IST" name="startTest" finished-at="2023-01-07T00:14:27 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.GrocerySectionTest@53f3bdbd]" started-at="2023-01-10T19:54:35 IST" name="status" finished-at="2023-01-10T19:54:35 IST" duration-ms="25" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.GrocerySectionTest.grocerySectionTest()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.GrocerySectionTest@2c78324b]" started-at="2023-01-07T00:14:27 IST" name="status" finished-at="2023-01-07T00:14:27 IST" duration-ms="24" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=grocerySectionTest status=SUCCESS method=GrocerySectionTest.grocerySectionTest()[pri:0, instance:testcases.GrocerySectionTest@2c78324b] output={null}]]]>
+                <![CDATA[[TestResult name=grocerySectionTest status=SUCCESS method=GrocerySectionTest.grocerySectionTest()[pri:3, instance:testcases.GrocerySectionTest@53f3bdbd] output={null}]]]>
               </value>
             </param>
           </params>
@@ -309,32 +176,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- status -->
       </class> <!-- testcases.GrocerySectionTest -->
     </test> <!-- GrocerySection -->
-    <test started-at="2023-01-07T00:14:27 IST" name="SellerServicePage" finished-at="2023-01-07T00:14:31 IST" duration-ms="3964">
+    <test started-at="2023-01-10T19:54:35 IST" name="SellerServicePage" finished-at="2023-01-10T19:56:00 IST" duration-ms="85473">
       <class name="testcases.SellerServicePageTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.SellerServicePageTest@4149c063]" started-at="2023-01-07T00:14:27 IST" name="navigateToURL" finished-at="2023-01-07T00:14:28 IST" duration-ms="1220" status="PASS">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.SellerServicePageTest@4ef74c30]" started-at="2023-01-10T19:54:35 IST" name="navigateToURL" finished-at="2023-01-10T19:54:37 IST" duration-ms="2406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.SellerServicePageTest@4149c063]" started-at="2023-01-07T00:14:28 IST" name="startTest" finished-at="2023-01-07T00:14:28 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.SellerServicePageTest@4ef74c30]" started-at="2023-01-10T19:54:37 IST" name="startTest" finished-at="2023-01-10T19:54:37 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.SellerServicePageTest.sellerServicePageTest()]]>
+                <![CDATA[public void testcases.SellerServicePageTest.sellerServicePageTest() throws java.lang.Throwable]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="sellerServicePageTest()[pri:0, instance:testcases.SellerServicePageTest@4149c063]" started-at="2023-01-07T00:14:28 IST" name="sellerServicePageTest" finished-at="2023-01-07T00:14:31 IST" duration-ms="2686" status="PASS">
+        <test-method signature="sellerServicePageTest()[pri:4, instance:testcases.SellerServicePageTest@4ef74c30]" started-at="2023-01-10T19:54:37 IST" name="sellerServicePageTest" finished-at="2023-01-10T19:56:00 IST" duration-ms="83043" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sellerServicePageTest -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.SellerServicePageTest@4149c063]" started-at="2023-01-07T00:14:31 IST" name="status" finished-at="2023-01-07T00:14:31 IST" duration-ms="56" status="PASS">
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.SellerServicePageTest@4ef74c30]" started-at="2023-01-10T19:56:00 IST" name="status" finished-at="2023-01-10T19:56:00 IST" duration-ms="21" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=sellerServicePageTest status=SUCCESS method=SellerServicePageTest.sellerServicePageTest()[pri:0, instance:testcases.SellerServicePageTest@4149c063] output={null}]]]>
+                <![CDATA[[TestResult name=sellerServicePageTest status=SUCCESS method=SellerServicePageTest.sellerServicePageTest()[pri:4, instance:testcases.SellerServicePageTest@4ef74c30] output={null}]]]>
               </value>
             </param>
           </params>
@@ -343,32 +210,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- status -->
       </class> <!-- testcases.SellerServicePageTest -->
     </test> <!-- SellerServicePage -->
-    <test started-at="2023-01-07T00:14:31 IST" name="CustomerCare" finished-at="2023-01-07T00:14:34 IST" duration-ms="3128">
+    <test started-at="2023-01-10T19:56:00 IST" name="CustomerCare" finished-at="2023-01-10T19:57:08 IST" duration-ms="67683">
       <class name="testcases.CustomerCareTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.CustomerCareTest@53f3bdbd]" started-at="2023-01-07T00:14:31 IST" name="navigateToURL" finished-at="2023-01-07T00:14:32 IST" duration-ms="1162" status="PASS">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.CustomerCareTest@776a6d9b]" started-at="2023-01-10T19:56:00 IST" name="navigateToURL" finished-at="2023-01-10T19:56:04 IST" duration-ms="3775" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.CustomerCareTest@53f3bdbd]" started-at="2023-01-07T00:14:32 IST" name="startTest" finished-at="2023-01-07T00:14:32 IST" duration-ms="0" status="PASS">
+        <test-method signature="customerCareTest()[pri:5, instance:testcases.CustomerCareTest@776a6d9b]" started-at="2023-01-10T19:56:04 IST" name="customerCareTest" finished-at="2023-01-10T19:57:08 IST" duration-ms="63873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerCareTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.CustomerCareTest@776a6d9b]" started-at="2023-01-10T19:56:04 IST" name="startTest" finished-at="2023-01-10T19:56:04 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.CustomerCareTest.customerCareTest()]]>
+                <![CDATA[public void testcases.CustomerCareTest.customerCareTest() throws java.lang.Throwable]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="customerCareTest()[pri:0, instance:testcases.CustomerCareTest@53f3bdbd]" started-at="2023-01-07T00:14:32 IST" name="customerCareTest" finished-at="2023-01-07T00:14:34 IST" duration-ms="1943" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- customerCareTest -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.CustomerCareTest@53f3bdbd]" started-at="2023-01-07T00:14:34 IST" name="status" finished-at="2023-01-07T00:14:34 IST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.CustomerCareTest@776a6d9b]" started-at="2023-01-10T19:57:08 IST" name="status" finished-at="2023-01-10T19:57:08 IST" duration-ms="31" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=customerCareTest status=SUCCESS method=CustomerCareTest.customerCareTest()[pri:0, instance:testcases.CustomerCareTest@53f3bdbd] output={null}]]]>
+                <![CDATA[[TestResult name=customerCareTest status=SUCCESS method=CustomerCareTest.customerCareTest()[pri:5, instance:testcases.CustomerCareTest@776a6d9b] output={null}]]]>
               </value>
             </param>
           </params>
@@ -377,234 +244,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- status -->
       </class> <!-- testcases.CustomerCareTest -->
     </test> <!-- CustomerCare -->
-    <test started-at="2023-01-07T00:14:34 IST" name="CartSection" finished-at="2023-01-07T00:15:36 IST" duration-ms="61446">
-      <class name="testcases.CartSectionTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.CartSectionTest@638ef7ed]" started-at="2023-01-07T00:14:34 IST" name="navigateToURL" finished-at="2023-01-07T00:14:35 IST" duration-ms="1233" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToURL -->
-        <test-method signature="cartSectionTest()[pri:0, instance:testcases.CartSectionTest@638ef7ed]" started-at="2023-01-07T00:14:35 IST" name="cartSectionTest" finished-at="2023-01-07T00:15:35 IST" duration-ms="60045" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: headless chrome=108.0.5359.125)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'IN-PG02A6JS', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ed0f44740028a49c0deedbe9c4b0ca9c, clickElement {id=f89637b3-c3e2-49bd-be61-35bf2bc3b8ee}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\BHAVYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64190/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (ed0f44740028a49c0deedbe9c4b0ca9c)] -> xpath: //body/div[@id='container']/div[1]/div[1]/div[1]/div[2]/div[6]/div[1]/div[1]/a[1]]
-Session ID: ed0f44740028a49c0deedbe9c4b0ca9c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: headless chrome=108.0.5359.125)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'IN-PG02A6JS', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ed0f44740028a49c0deedbe9c4b0ca9c, clickElement {id=f89637b3-c3e2-49bd-be61-35bf2bc3b8ee}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\BHAVYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64190/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (ed0f44740028a49c0deedbe9c4b0ca9c)] -> xpath: //body/div[@id='container']/div[1]/div[1]/div[1]/div[2]/div[6]/div[1]/div[1]/a[1]]
-Session ID: ed0f44740028a49c0deedbe9c4b0ca9c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at testcases.CartSectionTest.cartSectionTest(CartSectionTest.java:18)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cartSectionTest -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.CartSectionTest@638ef7ed]" started-at="2023-01-07T00:14:35 IST" name="startTest" finished-at="2023-01-07T00:14:35 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testcases.CartSectionTest.cartSectionTest()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.CartSectionTest@638ef7ed]" started-at="2023-01-07T00:15:35 IST" name="status" finished-at="2023-01-07T00:15:36 IST" duration-ms="163" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=cartSectionTest status=FAILURE method=CartSectionTest.cartSectionTest()[pri:0, instance:testcases.CartSectionTest@638ef7ed] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- status -->
-      </class> <!-- testcases.CartSectionTest -->
-    </test> <!-- CartSection -->
-    <test started-at="2023-01-07T00:15:36 IST" name="HelpCenter" finished-at="2023-01-07T00:16:37 IST" duration-ms="61616">
-      <class name="testcases.HelpCenterTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.HelpCenterTest@21d03963]" started-at="2023-01-07T00:15:36 IST" name="navigateToURL" finished-at="2023-01-07T00:15:37 IST" duration-ms="1403" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.HelpCenterTest@21d03963]" started-at="2023-01-07T00:15:37 IST" name="startTest" finished-at="2023-01-07T00:15:37 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testcases.HelpCenterTest.cartSectionTest()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="cartSectionTest()[pri:0, instance:testcases.HelpCenterTest@21d03963]" started-at="2023-01-07T00:15:37 IST" name="cartSectionTest" finished-at="2023-01-07T00:16:37 IST" duration-ms="60062" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: headless chrome=108.0.5359.125)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'IN-PG02A6JS', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ed0f44740028a49c0deedbe9c4b0ca9c, clickElement {id=6764499c-7acc-4670-b4fd-ab703add385e}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\BHAVYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64190/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (ed0f44740028a49c0deedbe9c4b0ca9c)] -> xpath: //body/div[@id='container']/div[1]/div[1]/div[1]/div[2]/div[6]/div[1]/div[1]/a[1]]
-Session ID: ed0f44740028a49c0deedbe9c4b0ca9c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: headless chrome=108.0.5359.125)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'IN-PG02A6JS', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ed0f44740028a49c0deedbe9c4b0ca9c, clickElement {id=6764499c-7acc-4670-b4fd-ab703add385e}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\BHAVYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64190/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (ed0f44740028a49c0deedbe9c4b0ca9c)] -> xpath: //body/div[@id='container']/div[1]/div[1]/div[1]/div[2]/div[6]/div[1]/div[1]/a[1]]
-Session ID: ed0f44740028a49c0deedbe9c4b0ca9c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at testcases.HelpCenterTest.cartSectionTest(HelpCenterTest.java:18)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cartSectionTest -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.HelpCenterTest@21d03963]" started-at="2023-01-07T00:16:37 IST" name="status" finished-at="2023-01-07T00:16:37 IST" duration-ms="146" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=cartSectionTest status=FAILURE method=HelpCenterTest.cartSectionTest()[pri:0, instance:testcases.HelpCenterTest@21d03963] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- status -->
-      </class> <!-- testcases.HelpCenterTest -->
-    </test> <!-- HelpCenter -->
-    <test started-at="2023-01-07T00:16:37 IST" name="TopOffers" finished-at="2023-01-07T00:16:39 IST" duration-ms="2272">
+    <test started-at="2023-01-10T19:57:08 IST" name="TopOffers" finished-at="2023-01-10T19:58:12 IST" duration-ms="63849">
       <class name="testcases.TopOffersTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.TopOffersTest@264f218]" started-at="2023-01-07T00:16:37 IST" name="navigateToURL" finished-at="2023-01-07T00:16:39 IST" duration-ms="1412" status="PASS">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.TopOffersTest@4c5ae43b]" started-at="2023-01-10T19:57:08 IST" name="navigateToURL" finished-at="2023-01-10T19:57:12 IST" duration-ms="3699" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.TopOffersTest@264f218]" started-at="2023-01-07T00:16:39 IST" name="startTest" finished-at="2023-01-07T00:16:39 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testcases.TopOffersTest.topOffers()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="topOffers()[pri:0, instance:testcases.TopOffersTest@264f218]" started-at="2023-01-07T00:16:39 IST" name="topOffers" finished-at="2023-01-07T00:16:39 IST" duration-ms="839" status="PASS">
+        <test-method signature="topOffers()[pri:6, instance:testcases.TopOffersTest@4c5ae43b]" started-at="2023-01-10T19:57:12 IST" name="topOffers" finished-at="2023-01-10T19:58:12 IST" duration-ms="60126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- topOffers -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.TopOffersTest@264f218]" started-at="2023-01-07T00:16:39 IST" name="status" finished-at="2023-01-07T00:16:39 IST" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.TopOffersTest@4c5ae43b]" started-at="2023-01-10T19:57:12 IST" name="startTest" finished-at="2023-01-10T19:57:12 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=topOffers status=SUCCESS method=TopOffersTest.topOffers()[pri:0, instance:testcases.TopOffersTest@264f218] output={null}]]]>
+                <![CDATA[public void testcases.TopOffersTest.topOffers() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.TopOffersTest@4c5ae43b]" started-at="2023-01-10T19:58:12 IST" name="status" finished-at="2023-01-10T19:58:12 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=topOffers status=SUCCESS method=TopOffersTest.topOffers()[pri:6, instance:testcases.TopOffersTest@4c5ae43b] output={null}]]]>
               </value>
             </param>
           </params>
@@ -613,32 +278,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- status -->
       </class> <!-- testcases.TopOffersTest -->
     </test> <!-- TopOffers -->
-    <test started-at="2023-01-07T00:16:39 IST" name="MobileSection" finished-at="2023-01-07T00:16:41 IST" duration-ms="1897">
+    <test started-at="2023-01-10T19:58:12 IST" name="MobileSection" finished-at="2023-01-10T19:59:16 IST" duration-ms="64048">
       <class name="testcases.MobileSectionTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.MobileSectionTest@1169afe1]" started-at="2023-01-07T00:16:39 IST" name="navigateToURL" finished-at="2023-01-07T00:16:40 IST" duration-ms="1031" status="PASS">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.MobileSectionTest@747f281]" started-at="2023-01-10T19:58:12 IST" name="navigateToURL" finished-at="2023-01-10T19:58:14 IST" duration-ms="2404" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.MobileSectionTest@1169afe1]" started-at="2023-01-07T00:16:40 IST" name="startTest" finished-at="2023-01-07T00:16:40 IST" duration-ms="1" status="PASS">
+        <test-method signature="mobileSection()[pri:7, instance:testcases.MobileSectionTest@747f281]" started-at="2023-01-10T19:58:14 IST" name="mobileSection" finished-at="2023-01-10T19:59:16 IST" duration-ms="61617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSection -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.MobileSectionTest@747f281]" started-at="2023-01-10T19:58:14 IST" name="startTest" finished-at="2023-01-10T19:58:14 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.MobileSectionTest.mobileSection()]]>
+                <![CDATA[public void testcases.MobileSectionTest.mobileSection() throws java.lang.Throwable]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="mobileSection()[pri:0, instance:testcases.MobileSectionTest@1169afe1]" started-at="2023-01-07T00:16:40 IST" name="mobileSection" finished-at="2023-01-07T00:16:41 IST" duration-ms="844" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileSection -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.MobileSectionTest@1169afe1]" started-at="2023-01-07T00:16:41 IST" name="status" finished-at="2023-01-07T00:16:41 IST" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.MobileSectionTest@747f281]" started-at="2023-01-10T19:59:16 IST" name="status" finished-at="2023-01-10T19:59:16 IST" duration-ms="26" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=mobileSection status=SUCCESS method=MobileSectionTest.mobileSection()[pri:0, instance:testcases.MobileSectionTest@1169afe1] output={null}]]]>
+                <![CDATA[[TestResult name=mobileSection status=SUCCESS method=MobileSectionTest.mobileSection()[pri:7, instance:testcases.MobileSectionTest@747f281] output={null}]]]>
               </value>
             </param>
           </params>
@@ -647,32 +312,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- status -->
       </class> <!-- testcases.MobileSectionTest -->
     </test> <!-- MobileSection -->
-    <test started-at="2023-01-07T00:16:41 IST" name="SortMobilePrice" finished-at="2023-01-07T00:16:44 IST" duration-ms="2409">
+    <test started-at="2023-01-10T19:59:16 IST" name="SortMobilePrice" finished-at="2023-01-10T20:00:25 IST" duration-ms="69096">
       <class name="testcases.SortMobilePriceTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.SortMobilePriceTest@72d6b3ba]" started-at="2023-01-07T00:16:41 IST" name="navigateToURL" finished-at="2023-01-07T00:16:43 IST" duration-ms="1200" status="PASS">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.SortMobilePriceTest@1787f2a0]" started-at="2023-01-10T19:59:16 IST" name="navigateToURL" finished-at="2023-01-10T19:59:20 IST" duration-ms="4380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method signature="sortMobilePriceTest()[pri:0, instance:testcases.SortMobilePriceTest@72d6b3ba]" started-at="2023-01-07T00:16:43 IST" name="sortMobilePriceTest" finished-at="2023-01-07T00:16:44 IST" duration-ms="1189" status="PASS">
+        <test-method signature="sortMobilePriceTest()[pri:8, instance:testcases.SortMobilePriceTest@1787f2a0]" started-at="2023-01-10T19:59:20 IST" name="sortMobilePriceTest" finished-at="2023-01-10T20:00:25 IST" duration-ms="64683" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortMobilePriceTest -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.SortMobilePriceTest@72d6b3ba]" started-at="2023-01-07T00:16:43 IST" name="startTest" finished-at="2023-01-07T00:16:43 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.SortMobilePriceTest@1787f2a0]" started-at="2023-01-10T19:59:20 IST" name="startTest" finished-at="2023-01-10T19:59:20 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.SortMobilePriceTest.sortMobilePriceTest()]]>
+                <![CDATA[public void testcases.SortMobilePriceTest.sortMobilePriceTest() throws java.lang.Throwable]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.SortMobilePriceTest@72d6b3ba]" started-at="2023-01-07T00:16:44 IST" name="status" finished-at="2023-01-07T00:16:44 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.SortMobilePriceTest@1787f2a0]" started-at="2023-01-10T20:00:25 IST" name="status" finished-at="2023-01-10T20:00:25 IST" duration-ms="32" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=sortMobilePriceTest status=SUCCESS method=SortMobilePriceTest.sortMobilePriceTest()[pri:0, instance:testcases.SortMobilePriceTest@72d6b3ba] output={null}]]]>
+                <![CDATA[[TestResult name=sortMobilePriceTest status=SUCCESS method=SortMobilePriceTest.sortMobilePriceTest()[pri:8, instance:testcases.SortMobilePriceTest@1787f2a0] output={null}]]]>
               </value>
             </param>
           </params>
@@ -681,32 +346,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- status -->
       </class> <!-- testcases.SortMobilePriceTest -->
     </test> <!-- SortMobilePrice -->
-    <test started-at="2023-01-07T00:16:44 IST" name="NewMobileLaunches" finished-at="2023-01-07T00:16:46 IST" duration-ms="2393">
+    <test started-at="2023-01-10T20:00:25 IST" name="NewMobileLaunches" finished-at="2023-01-10T20:01:39 IST" duration-ms="74081">
       <class name="testcases.NewMobileLaunchesTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.NewMobileLaunchesTest@389b0789]" started-at="2023-01-07T00:16:44 IST" name="navigateToURL" finished-at="2023-01-07T00:16:45 IST" duration-ms="1243" status="PASS">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.NewMobileLaunchesTest@13d9cbf5]" started-at="2023-01-10T20:00:25 IST" name="navigateToURL" finished-at="2023-01-10T20:00:29 IST" duration-ms="4371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.NewMobileLaunchesTest@389b0789]" started-at="2023-01-07T00:16:45 IST" name="startTest" finished-at="2023-01-07T00:16:45 IST" duration-ms="0" status="PASS">
+        <test-method signature="newMobileLaunchesTest()[pri:9, instance:testcases.NewMobileLaunchesTest@13d9cbf5]" started-at="2023-01-10T20:00:29 IST" name="newMobileLaunchesTest" finished-at="2023-01-10T20:01:39 IST" duration-ms="69678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newMobileLaunchesTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.NewMobileLaunchesTest@13d9cbf5]" started-at="2023-01-10T20:00:29 IST" name="startTest" finished-at="2023-01-10T20:00:29 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.NewMobileLaunchesTest.newMobileLaunchesTest()]]>
+                <![CDATA[public void testcases.NewMobileLaunchesTest.newMobileLaunchesTest() throws java.lang.Throwable]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="newMobileLaunchesTest()[pri:0, instance:testcases.NewMobileLaunchesTest@389b0789]" started-at="2023-01-07T00:16:45 IST" name="newMobileLaunchesTest" finished-at="2023-01-07T00:16:46 IST" duration-ms="1128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newMobileLaunchesTest -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.NewMobileLaunchesTest@389b0789]" started-at="2023-01-07T00:16:46 IST" name="status" finished-at="2023-01-07T00:16:46 IST" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.NewMobileLaunchesTest@13d9cbf5]" started-at="2023-01-10T20:01:39 IST" name="status" finished-at="2023-01-10T20:01:39 IST" duration-ms="29" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=newMobileLaunchesTest status=SUCCESS method=NewMobileLaunchesTest.newMobileLaunchesTest()[pri:0, instance:testcases.NewMobileLaunchesTest@389b0789] output={null}]]]>
+                <![CDATA[[TestResult name=newMobileLaunchesTest status=SUCCESS method=NewMobileLaunchesTest.newMobileLaunchesTest()[pri:9, instance:testcases.NewMobileLaunchesTest@13d9cbf5] output={null}]]]>
               </value>
             </param>
           </params>
@@ -715,32 +380,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- status -->
       </class> <!-- testcases.NewMobileLaunchesTest -->
     </test> <!-- NewMobileLaunches -->
-    <test started-at="2023-01-07T00:16:46 IST" name="HighPriceProducts" finished-at="2023-01-07T00:16:49 IST" duration-ms="2630">
+    <test started-at="2023-01-10T20:01:39 IST" name="HighPriceProducts" finished-at="2023-01-10T20:02:49 IST" duration-ms="69429">
       <class name="testcases.HighPriceProductsTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.HighPriceProductsTest@1b410b60]" started-at="2023-01-07T00:16:46 IST" name="navigateToURL" finished-at="2023-01-07T00:16:48 IST" duration-ms="1478" status="PASS">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.HighPriceProductsTest@2462cb01]" started-at="2023-01-10T20:01:39 IST" name="navigateToURL" finished-at="2023-01-10T20:01:44 IST" duration-ms="4796" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.HighPriceProductsTest@1b410b60]" started-at="2023-01-07T00:16:48 IST" name="startTest" finished-at="2023-01-07T00:16:48 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.HighPriceProductsTest@2462cb01]" started-at="2023-01-10T20:01:44 IST" name="startTest" finished-at="2023-01-10T20:01:44 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.HighPriceProductsTest.highPriceProducts()]]>
+                <![CDATA[public void testcases.HighPriceProductsTest.highPriceProducts() throws java.lang.Throwable]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="highPriceProducts()[pri:0, instance:testcases.HighPriceProductsTest@1b410b60]" started-at="2023-01-07T00:16:48 IST" name="highPriceProducts" finished-at="2023-01-07T00:16:49 IST" duration-ms="1133" status="PASS">
+        <test-method signature="highPriceProducts()[pri:10, instance:testcases.HighPriceProductsTest@2462cb01]" started-at="2023-01-10T20:01:44 IST" name="highPriceProducts" finished-at="2023-01-10T20:02:48 IST" duration-ms="64607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- highPriceProducts -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.HighPriceProductsTest@1b410b60]" started-at="2023-01-07T00:16:49 IST" name="status" finished-at="2023-01-07T00:16:49 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.HighPriceProductsTest@2462cb01]" started-at="2023-01-10T20:02:48 IST" name="status" finished-at="2023-01-10T20:02:49 IST" duration-ms="24" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=highPriceProducts status=SUCCESS method=HighPriceProductsTest.highPriceProducts()[pri:0, instance:testcases.HighPriceProductsTest@1b410b60] output={null}]]]>
+                <![CDATA[[TestResult name=highPriceProducts status=SUCCESS method=HighPriceProductsTest.highPriceProducts()[pri:10, instance:testcases.HighPriceProductsTest@2462cb01] output={null}]]]>
               </value>
             </param>
           </params>
@@ -749,32 +414,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- status -->
       </class> <!-- testcases.HighPriceProductsTest -->
     </test> <!-- HighPriceProducts -->
-    <test started-at="2023-01-07T00:16:49 IST" name="Termsofuse" finished-at="2023-01-07T00:16:50 IST" duration-ms="1335">
+    <test started-at="2023-01-10T20:02:49 IST" name="Termsofuse" finished-at="2023-01-10T20:04:10 IST" duration-ms="81967">
       <class name="testcases.TermsofuseTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.TermsofuseTest@1ec9bd38]" started-at="2023-01-07T00:16:49 IST" name="navigateToURL" finished-at="2023-01-07T00:16:50 IST" duration-ms="1133" status="PASS">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.TermsofuseTest@452e19ca]" started-at="2023-01-10T20:02:49 IST" name="navigateToURL" finished-at="2023-01-10T20:03:10 IST" duration-ms="21674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.TermsofuseTest@1ec9bd38]" started-at="2023-01-07T00:16:50 IST" name="startTest" finished-at="2023-01-07T00:16:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.TermsofuseTest@452e19ca]" started-at="2023-01-10T20:03:10 IST" name="startTest" finished-at="2023-01-10T20:03:10 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.TermsofuseTest.termsofuseTest()]]>
+                <![CDATA[public void testcases.TermsofuseTest.termsofuseTest() throws java.lang.Throwable]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="termsofuseTest()[pri:0, instance:testcases.TermsofuseTest@1ec9bd38]" started-at="2023-01-07T00:16:50 IST" name="termsofuseTest" finished-at="2023-01-07T00:16:50 IST" duration-ms="178" status="PASS">
+        <test-method signature="termsofuseTest()[pri:11, instance:testcases.TermsofuseTest@452e19ca]" started-at="2023-01-10T20:03:10 IST" name="termsofuseTest" finished-at="2023-01-10T20:04:10 IST" duration-ms="60261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- termsofuseTest -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.TermsofuseTest@1ec9bd38]" started-at="2023-01-07T00:16:50 IST" name="status" finished-at="2023-01-07T00:16:50 IST" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.TermsofuseTest@452e19ca]" started-at="2023-01-10T20:04:10 IST" name="status" finished-at="2023-01-10T20:04:10 IST" duration-ms="26" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=termsofuseTest status=SUCCESS method=TermsofuseTest.termsofuseTest()[pri:0, instance:testcases.TermsofuseTest@1ec9bd38] output={null}]]]>
+                <![CDATA[[TestResult name=termsofuseTest status=SUCCESS method=TermsofuseTest.termsofuseTest()[pri:11, instance:testcases.TermsofuseTest@452e19ca] output={null}]]]>
               </value>
             </param>
           </params>
@@ -783,32 +448,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- status -->
       </class> <!-- testcases.TermsofuseTest -->
     </test> <!-- Termsofuse -->
-    <test started-at="2023-01-07T00:16:50 IST" name="PrivacyPolicy" finished-at="2023-01-07T00:16:52 IST" duration-ms="1396">
+    <test started-at="2023-01-10T20:04:10 IST" name="PrivacyPolicy" finished-at="2023-01-10T20:05:20 IST" duration-ms="69119">
       <class name="testcases.PrivacyPolicyTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.PrivacyPolicyTest@15f47664]" started-at="2023-01-07T00:16:50 IST" name="navigateToURL" finished-at="2023-01-07T00:16:51 IST" duration-ms="1234" status="PASS">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.PrivacyPolicyTest@471a9022]" started-at="2023-01-10T20:04:10 IST" name="navigateToURL" finished-at="2023-01-10T20:04:19 IST" duration-ms="8857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.PrivacyPolicyTest@15f47664]" started-at="2023-01-07T00:16:51 IST" name="startTest" finished-at="2023-01-07T00:16:51 IST" duration-ms="1" status="PASS">
+        <test-method signature="privacyPolicy()[pri:12, instance:testcases.PrivacyPolicyTest@471a9022]" started-at="2023-01-10T20:04:19 IST" name="privacyPolicy" finished-at="2023-01-10T20:05:20 IST" duration-ms="60224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- privacyPolicy -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.PrivacyPolicyTest@471a9022]" started-at="2023-01-10T20:04:19 IST" name="startTest" finished-at="2023-01-10T20:04:19 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.PrivacyPolicyTest.privacyPolicy()]]>
+                <![CDATA[public void testcases.PrivacyPolicyTest.privacyPolicy() throws java.lang.Throwable]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="privacyPolicy()[pri:0, instance:testcases.PrivacyPolicyTest@15f47664]" started-at="2023-01-07T00:16:51 IST" name="privacyPolicy" finished-at="2023-01-07T00:16:52 IST" duration-ms="134" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- privacyPolicy -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.PrivacyPolicyTest@15f47664]" started-at="2023-01-07T00:16:52 IST" name="status" finished-at="2023-01-07T00:16:52 IST" duration-ms="25" status="PASS">
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.PrivacyPolicyTest@471a9022]" started-at="2023-01-10T20:05:20 IST" name="status" finished-at="2023-01-10T20:05:20 IST" duration-ms="36" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=privacyPolicy status=SUCCESS method=PrivacyPolicyTest.privacyPolicy()[pri:0, instance:testcases.PrivacyPolicyTest@15f47664] output={null}]]]>
+                <![CDATA[[TestResult name=privacyPolicy status=SUCCESS method=PrivacyPolicyTest.privacyPolicy()[pri:12, instance:testcases.PrivacyPolicyTest@471a9022] output={null}]]]>
               </value>
             </param>
           </params>
@@ -817,32 +482,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- status -->
       </class> <!-- testcases.PrivacyPolicyTest -->
     </test> <!-- PrivacyPolicy -->
-    <test started-at="2023-01-07T00:16:52 IST" name="Achievementselling" finished-at="2023-01-07T00:16:55 IST" duration-ms="3861">
+    <test started-at="2023-01-10T20:05:20 IST" name="Achievementselling" finished-at="2023-01-10T20:06:37 IST" duration-ms="77181">
       <class name="testcases.AchievementsellingTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.AchievementsellingTest@57a3e26a]" started-at="2023-01-07T00:16:52 IST" name="navigateToURL" finished-at="2023-01-07T00:16:53 IST" duration-ms="1298" status="PASS">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.AchievementsellingTest@75c56eb9]" started-at="2023-01-10T20:05:20 IST" name="navigateToURL" finished-at="2023-01-10T20:05:24 IST" duration-ms="4166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.AchievementsellingTest@57a3e26a]" started-at="2023-01-07T00:16:53 IST" name="startTest" finished-at="2023-01-07T00:16:53 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.AchievementsellingTest@75c56eb9]" started-at="2023-01-10T20:05:24 IST" name="startTest" finished-at="2023-01-10T20:05:24 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.AchievementsellingTest.achievementSelling()]]>
+                <![CDATA[public void testcases.AchievementsellingTest.achievementSelling() throws java.lang.Throwable]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="achievementSelling()[pri:0, instance:testcases.AchievementsellingTest@57a3e26a]" started-at="2023-01-07T00:16:53 IST" name="achievementSelling" finished-at="2023-01-07T00:16:55 IST" duration-ms="2540" status="PASS">
+        <test-method signature="achievementSelling()[pri:13, instance:testcases.AchievementsellingTest@75c56eb9]" started-at="2023-01-10T20:05:24 IST" name="achievementSelling" finished-at="2023-01-10T20:06:37 IST" duration-ms="72997" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- achievementSelling -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.AchievementsellingTest@57a3e26a]" started-at="2023-01-07T00:16:55 IST" name="status" finished-at="2023-01-07T00:16:55 IST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.AchievementsellingTest@75c56eb9]" started-at="2023-01-10T20:06:37 IST" name="status" finished-at="2023-01-10T20:06:37 IST" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=achievementSelling status=SUCCESS method=AchievementsellingTest.achievementSelling()[pri:0, instance:testcases.AchievementsellingTest@57a3e26a] output={null}]]]>
+                <![CDATA[[TestResult name=achievementSelling status=SUCCESS method=AchievementsellingTest.achievementSelling()[pri:13, instance:testcases.AchievementsellingTest@75c56eb9] output={null}]]]>
               </value>
             </param>
           </params>
@@ -851,32 +516,101 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- status -->
       </class> <!-- testcases.AchievementsellingTest -->
     </test> <!-- Achievementselling -->
-    <test started-at="2023-01-07T00:16:55 IST" name="SellingGuide" finished-at="2023-01-07T00:16:59 IST" duration-ms="3523">
+    <test started-at="2023-01-10T20:06:37 IST" name="SellingGuide" finished-at="2023-01-10T20:08:45 IST" duration-ms="128410">
       <class name="testcases.SellingGuideTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.SellingGuideTest@3eb91815]" started-at="2023-01-07T00:16:55 IST" name="navigateToURL" finished-at="2023-01-07T00:16:57 IST" duration-ms="1307" status="PASS">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.SellingGuideTest@56dc1551]" started-at="2023-01-10T20:06:37 IST" name="navigateToURL" finished-at="2023-01-10T20:06:44 IST" duration-ms="6931" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.SellingGuideTest@3eb91815]" started-at="2023-01-07T00:16:57 IST" name="startTest" finished-at="2023-01-07T00:16:57 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.SellingGuideTest@56dc1551]" started-at="2023-01-10T20:06:44 IST" name="startTest" finished-at="2023-01-10T20:06:44 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.SellingGuideTest.sellingGuide()]]>
+                <![CDATA[public void testcases.SellingGuideTest.sellingGuide() throws java.lang.Throwable]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="sellingGuide()[pri:0, instance:testcases.SellingGuideTest@3eb91815]" started-at="2023-01-07T00:16:57 IST" name="sellingGuide" finished-at="2023-01-07T00:16:59 IST" duration-ms="2194" status="PASS">
+        <test-method signature="sellingGuide()[pri:14, instance:testcases.SellingGuideTest@56dc1551]" started-at="2023-01-10T20:06:44 IST" name="sellingGuide" finished-at="2023-01-10T20:08:45 IST" duration-ms="121276" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//body[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[3]"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'IN-PG02A6JS', ip: '192.168.41.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4198a5fb52a503056e4adecb35fabfa2, findElement {using=xpath, value=//body[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\BHAVYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57540}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57540/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4198a5fb52a503056e4adecb35fabfa2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[3]"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'IN-PG02A6JS', ip: '192.168.41.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4198a5fb52a503056e4adecb35fabfa2, findElement {using=xpath, value=//body[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\BHAVYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57540}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57540/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4198a5fb52a503056e4adecb35fabfa2
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at testcases.SellingGuideTest.sellingGuide(SellingGuideTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sellingGuide -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.SellingGuideTest@3eb91815]" started-at="2023-01-07T00:16:59 IST" name="status" finished-at="2023-01-07T00:16:59 IST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.SellingGuideTest@56dc1551]" started-at="2023-01-10T20:08:45 IST" name="status" finished-at="2023-01-10T20:08:45 IST" duration-ms="201" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=sellingGuide status=SUCCESS method=SellingGuideTest.sellingGuide()[pri:0, instance:testcases.SellingGuideTest@3eb91815] output={null}]]]>
+                <![CDATA[[TestResult name=sellingGuide status=FAILURE method=SellingGuideTest.sellingGuide()[pri:14, instance:testcases.SellingGuideTest@56dc1551] output={null}]]]>
               </value>
             </param>
           </params>
@@ -885,32 +619,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- status -->
       </class> <!-- testcases.SellingGuideTest -->
     </test> <!-- SellingGuide -->
-    <test started-at="2023-01-07T00:16:59 IST" name="CustomerReviewsTest" finished-at="2023-01-07T00:17:02 IST" duration-ms="3327">
+    <test started-at="2023-01-10T20:08:45 IST" name="CustomerReviewsTest" finished-at="2023-01-10T20:09:56 IST" duration-ms="70551">
       <class name="testcases.CustomerReviewsTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.CustomerReviewsTest@19b89d4]" started-at="2023-01-07T00:16:59 IST" name="navigateToURL" finished-at="2023-01-07T00:17:00 IST" duration-ms="1265" status="PASS">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.CustomerReviewsTest@4bbf6d0e]" started-at="2023-01-10T20:08:45 IST" name="navigateToURL" finished-at="2023-01-10T20:08:50 IST" duration-ms="5020" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.CustomerReviewsTest@19b89d4]" started-at="2023-01-07T00:17:00 IST" name="startTest" finished-at="2023-01-07T00:17:00 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.CustomerReviewsTest@4bbf6d0e]" started-at="2023-01-10T20:08:50 IST" name="startTest" finished-at="2023-01-10T20:08:50 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.CustomerReviewsTest.customerReviews()]]>
+                <![CDATA[public void testcases.CustomerReviewsTest.customerReviews() throws java.lang.Throwable]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="customerReviews()[pri:0, instance:testcases.CustomerReviewsTest@19b89d4]" started-at="2023-01-07T00:17:00 IST" name="customerReviews" finished-at="2023-01-07T00:17:02 IST" duration-ms="2040" status="PASS">
+        <test-method signature="customerReviews()[pri:15, instance:testcases.CustomerReviewsTest@4bbf6d0e]" started-at="2023-01-10T20:08:50 IST" name="customerReviews" finished-at="2023-01-10T20:09:56 IST" duration-ms="65502" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customerReviews -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.CustomerReviewsTest@19b89d4]" started-at="2023-01-07T00:17:02 IST" name="status" finished-at="2023-01-07T00:17:02 IST" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.CustomerReviewsTest@4bbf6d0e]" started-at="2023-01-10T20:09:56 IST" name="status" finished-at="2023-01-10T20:09:56 IST" duration-ms="26" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=customerReviews status=SUCCESS method=CustomerReviewsTest.customerReviews()[pri:0, instance:testcases.CustomerReviewsTest@19b89d4] output={null}]]]>
+                <![CDATA[[TestResult name=customerReviews status=SUCCESS method=CustomerReviewsTest.customerReviews()[pri:15, instance:testcases.CustomerReviewsTest@4bbf6d0e] output={null}]]]>
               </value>
             </param>
           </params>
@@ -919,47 +653,183 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- status -->
       </class> <!-- testcases.CustomerReviewsTest -->
     </test> <!-- CustomerReviewsTest -->
-    <test started-at="2023-01-07T00:17:02 IST" name="ProductDetail" finished-at="2023-01-07T00:17:04 IST" duration-ms="2099">
+    <test started-at="2023-01-10T20:09:56 IST" name="ProductDetail" finished-at="2023-01-10T20:11:17 IST" duration-ms="81337">
       <class name="testcases.ProductDetail">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ProductDetail@24c22fe]" started-at="2023-01-07T00:11:46 IST" name="setup" finished-at="2023-01-07T00:11:49 IST" duration-ms="2481" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.ProductDetail@24c22fe]" started-at="2023-01-07T00:17:02 IST" name="navigateToURL" finished-at="2023-01-07T00:17:03 IST" duration-ms="1196" status="PASS">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.ProductDetail@93081b6]" started-at="2023-01-10T20:09:56 IST" name="navigateToURL" finished-at="2023-01-10T20:10:11 IST" duration-ms="14999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.ProductDetail@24c22fe]" started-at="2023-01-07T00:17:03 IST" name="startTest" finished-at="2023-01-07T00:17:03 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.ProductDetail@93081b6]" started-at="2023-01-10T20:10:11 IST" name="startTest" finished-at="2023-01-10T20:10:11 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.ProductDetail.productDetail()]]>
+                <![CDATA[public void testcases.ProductDetail.productDetail() throws java.lang.Throwable]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="productDetail()[pri:0, instance:testcases.ProductDetail@24c22fe]" started-at="2023-01-07T00:17:03 IST" name="productDetail" finished-at="2023-01-07T00:17:04 IST" duration-ms="883" status="PASS">
+        <test-method signature="productDetail()[pri:16, instance:testcases.ProductDetail@93081b6]" started-at="2023-01-10T20:10:11 IST" name="productDetail" finished-at="2023-01-10T20:11:17 IST" duration-ms="66314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productDetail -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.ProductDetail@24c22fe]" started-at="2023-01-07T00:17:04 IST" name="status" finished-at="2023-01-07T00:17:04 IST" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.ProductDetail@93081b6]" started-at="2023-01-10T20:11:17 IST" name="status" finished-at="2023-01-10T20:11:17 IST" duration-ms="20" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=productDetail status=SUCCESS method=ProductDetail.productDetail()[pri:0, instance:testcases.ProductDetail@24c22fe] output={null}]]]>
+                <![CDATA[[TestResult name=productDetail status=SUCCESS method=ProductDetail.productDetail()[pri:16, instance:testcases.ProductDetail@93081b6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- status -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ProductDetail@24c22fe]" started-at="2023-01-07T00:17:04 IST" name="tearDown" finished-at="2023-01-07T00:17:05 IST" duration-ms="633" status="PASS">
+      </class> <!-- testcases.ProductDetail -->
+    </test> <!-- ProductDetail -->
+    <test started-at="2023-01-10T20:11:17 IST" name="CartSection" finished-at="2023-01-10T20:12:33 IST" duration-ms="76127">
+      <class name="testcases.CartSectionTest">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.CartSectionTest@31edaa7d]" started-at="2023-01-10T20:11:17 IST" name="navigateToURL" finished-at="2023-01-10T20:11:33 IST" duration-ms="15961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.CartSectionTest@31edaa7d]" started-at="2023-01-10T20:11:33 IST" name="startTest" finished-at="2023-01-10T20:11:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.CartSectionTest.cartSectionTest() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="cartSectionTest()[pri:17, instance:testcases.CartSectionTest@31edaa7d]" started-at="2023-01-10T20:11:33 IST" name="cartSectionTest" finished-at="2023-01-10T20:12:33 IST" duration-ms="60148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartSectionTest -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.CartSectionTest@31edaa7d]" started-at="2023-01-10T20:12:33 IST" name="status" finished-at="2023-01-10T20:12:33 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartSectionTest status=SUCCESS method=CartSectionTest.cartSectionTest()[pri:17, instance:testcases.CartSectionTest@31edaa7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+      </class> <!-- testcases.CartSectionTest -->
+    </test> <!-- CartSection -->
+    <test started-at="2023-01-10T20:12:33 IST" name="SellerLogin" finished-at="2023-01-10T20:13:58 IST" duration-ms="85164">
+      <class name="testcases.SellerLoginTest">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.SellerLoginTest@6f3187b0]" started-at="2023-01-10T20:12:33 IST" name="navigateToURL" finished-at="2023-01-10T20:12:43 IST" duration-ms="9917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.SellerLoginTest@6f3187b0]" started-at="2023-01-10T20:12:43 IST" name="startTest" finished-at="2023-01-10T20:12:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.SellerLoginTest.loginSeller() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="loginSeller()[pri:18, instance:testcases.SellerLoginTest@6f3187b0]" started-at="2023-01-10T20:12:43 IST" name="loginSeller" finished-at="2023-01-10T20:13:58 IST" duration-ms="75224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSeller -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.SellerLoginTest@6f3187b0]" started-at="2023-01-10T20:13:58 IST" name="status" finished-at="2023-01-10T20:13:58 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginSeller status=SUCCESS method=SellerLoginTest.loginSeller()[pri:18, instance:testcases.SellerLoginTest@6f3187b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+      </class> <!-- testcases.SellerLoginTest -->
+    </test> <!-- SellerLogin -->
+    <test started-at="2023-01-10T20:13:58 IST" name="SellerRegister" finished-at="2023-01-10T20:16:13 IST" duration-ms="134588">
+      <class name="testcases.SellerRegisterTest">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.SellerRegisterTest@44be0077]" started-at="2023-01-10T20:13:58 IST" name="navigateToURL" finished-at="2023-01-10T20:14:45 IST" duration-ms="46619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.SellerRegisterTest@44be0077]" started-at="2023-01-10T20:14:45 IST" name="startTest" finished-at="2023-01-10T20:14:45 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.SellerRegisterTest.registerSeller() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="registerSeller()[pri:19, instance:testcases.SellerRegisterTest@44be0077]" started-at="2023-01-10T20:14:45 IST" name="registerSeller" finished-at="2023-01-10T20:16:13 IST" duration-ms="87944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerSeller -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.SellerRegisterTest@44be0077]" started-at="2023-01-10T20:16:13 IST" name="status" finished-at="2023-01-10T20:16:13 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerSeller status=SUCCESS method=SellerRegisterTest.registerSeller()[pri:19, instance:testcases.SellerRegisterTest@44be0077] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+      </class> <!-- testcases.SellerRegisterTest -->
+    </test> <!-- SellerRegister -->
+    <test started-at="2023-01-10T20:16:13 IST" name="HelpCenter" finished-at="2023-01-10T20:17:20 IST" duration-ms="66613">
+      <class name="testcases.HelpCenterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.HelpCenterTest@5f20155b]" started-at="2023-01-10T19:51:48 IST" name="setup" finished-at="2023-01-10T19:51:51 IST" duration-ms="2431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:testcases.HelpCenterTest@5f20155b]" started-at="2023-01-10T20:16:13 IST" name="navigateToURL" finished-at="2023-01-10T20:16:19 IST" duration-ms="6333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="cartSectionTest()[pri:20, instance:testcases.HelpCenterTest@5f20155b]" started-at="2023-01-10T20:16:19 IST" name="cartSectionTest" finished-at="2023-01-10T20:17:20 IST" duration-ms="60254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartSectionTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.HelpCenterTest@5f20155b]" started-at="2023-01-10T20:16:19 IST" name="startTest" finished-at="2023-01-10T20:16:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.HelpCenterTest.cartSectionTest() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:testcases.HelpCenterTest@5f20155b]" started-at="2023-01-10T20:17:20 IST" name="status" finished-at="2023-01-10T20:17:20 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartSectionTest status=SUCCESS method=HelpCenterTest.cartSectionTest()[pri:20, instance:testcases.HelpCenterTest@5f20155b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HelpCenterTest@5f20155b]" started-at="2023-01-10T20:17:20 IST" name="tearDown" finished-at="2023-01-10T20:17:20 IST" duration-ms="802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.ProductDetail -->
-    </test> <!-- ProductDetail -->
+      </class> <!-- testcases.HelpCenterTest -->
+    </test> <!-- HelpCenter -->
   </suite> <!-- Flipkart Selinium Project -->
 </testng-results>

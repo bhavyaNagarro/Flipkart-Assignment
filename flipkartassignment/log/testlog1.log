@@ -155,3 +155,450 @@
 2023-01-07 00:16:59,413 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
 2023-01-07 00:17:02,744 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
 2023-01-07 00:17:04,848 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-07 14:37:15,023 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-07 14:37:18,227 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-07 14:37:32,432 [main] INFO testcases.SellerRegisterTest - Register the seller on flipkart testcase passed successfully.
+2023-01-07 14:37:38,465 [main] INFO testcases.SellerLoginTest - Login the seller on flipkart testcase passed successfully.
+2023-01-07 14:37:41,074 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-07 14:37:46,551 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-07 14:37:52,465 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-07 14:37:54,700 [main] INFO testcases.CartSectionTest - Cart section on flipkart testcase passed successfully.
+2023-01-07 14:37:56,854 [main] INFO testcases.HelpCenterTest - Help Center section on flipkart testcase passed successfully.
+2023-01-07 14:37:58,629 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-07 14:38:01,177 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-07 14:38:04,505 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-07 14:38:07,335 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-07 14:38:10,282 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-07 14:38:12,116 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-07 14:38:13,962 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-07 14:38:20,325 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-07 14:38:25,790 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
+2023-01-07 14:38:31,882 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-07 14:38:35,501 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-07 14:42:50,333 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-07 14:42:52,858 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-07 14:45:09,059 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-07 14:45:12,050 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-07 14:45:14,673 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-07 14:47:19,408 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-07 14:47:21,467 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-07 14:47:23,707 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-07 14:47:26,136 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-07 14:47:28,471 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-07 14:47:29,669 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-07 14:47:30,960 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-07 14:47:34,371 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-07 14:47:37,449 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
+2023-01-07 14:47:40,263 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-07 14:47:42,416 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-07 14:53:24,556 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-07 14:53:26,219 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-07 14:53:35,838 [main] INFO testcases.SellerRegisterTest - Register the seller on flipkart testcase passed successfully.
+2023-01-07 14:53:39,094 [main] INFO testcases.SellerLoginTest - Login the seller on flipkart testcase passed successfully.
+2023-01-07 14:53:40,590 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-07 14:53:44,142 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-07 14:53:46,877 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-07 14:53:48,025 [main] INFO testcases.CartSectionTest - Cart section on flipkart testcase passed successfully.
+2023-01-07 14:53:49,296 [main] INFO testcases.HelpCenterTest - Help Center section on flipkart testcase passed successfully.
+2023-01-07 14:53:50,432 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-07 14:53:52,357 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-07 14:53:54,810 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-07 14:53:57,253 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-07 14:53:59,610 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-07 14:54:00,881 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-07 14:54:02,124 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-07 14:54:06,116 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-07 14:54:09,946 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
+2023-01-07 14:54:13,235 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-07 14:54:15,254 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-07 14:55:33,117 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-07 14:55:34,677 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-07 14:57:49,599 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-07 14:57:52,661 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-07 14:57:55,591 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-07 15:00:00,372 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-07 15:00:02,171 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-07 15:00:04,418 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-07 15:00:06,558 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-07 15:00:09,127 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-07 15:00:10,322 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-07 15:00:11,671 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-07 15:00:15,024 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-07 15:00:18,956 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
+2023-01-07 15:00:22,432 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-07 15:00:24,574 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-07 17:37:03,248 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-07 17:37:05,653 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-07 17:39:24,443 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-07 17:39:30,426 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-07 17:39:36,131 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-07 17:41:44,356 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-07 17:41:47,076 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-07 17:41:49,477 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-07 17:41:51,839 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-07 17:41:54,408 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-07 17:41:55,682 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-07 17:41:56,941 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-07 17:42:00,868 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-07 17:42:04,493 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
+2023-01-07 17:42:07,554 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-07 17:42:09,577 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-08 13:49:27,845 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-08 13:49:30,479 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-08 13:50:44,227 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-08 13:51:49,624 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-08 13:51:51,266 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-08 13:51:58,902 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-08 13:52:03,546 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-08 13:53:06,388 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-08 13:54:09,407 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-08 13:54:12,594 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-08 13:54:16,315 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-08 13:54:20,283 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-08 13:54:24,592 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-08 13:54:28,918 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-08 13:54:31,652 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-08 13:54:33,505 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-08 13:54:40,073 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-08 13:54:46,778 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
+2023-01-08 13:54:52,727 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-08 13:54:57,037 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-09 20:17:47,817 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-09 20:20:11,604 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-09 20:28:28,588 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-09 20:29:44,716 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-09 21:29:20,445 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-09 21:29:23,973 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-09 21:30:13,306 [main] INFO testcases.SellerRegisterTest - Register the seller on flipkart testcase passed successfully.
+2023-01-09 21:30:23,145 [main] INFO testcases.SellerLoginTest - Login the seller on flipkart testcase passed successfully.
+2023-01-09 21:30:27,900 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-09 21:30:37,514 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-09 21:30:45,644 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-09 21:30:51,052 [main] INFO testcases.CartSectionTest - Cart section on flipkart testcase passed successfully.
+2023-01-09 21:30:58,521 [main] INFO testcases.HelpCenterTest - Help Center section on flipkart testcase passed successfully.
+2023-01-09 21:31:05,295 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-09 21:31:12,845 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-09 21:31:21,223 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-09 21:31:29,203 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-09 21:31:35,339 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-09 21:31:41,188 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-09 21:31:44,464 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-09 21:31:57,072 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-09 21:32:10,267 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
+2023-01-09 21:32:18,307 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-09 21:32:24,959 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-09 21:33:58,872 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-09 21:34:05,584 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-09 21:35:36,053 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-09 21:36:47,335 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-09 21:36:51,956 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-09 21:37:03,438 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-09 21:37:13,503 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-09 21:38:18,001 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-09 21:39:24,258 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-09 21:39:30,028 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-09 21:39:38,677 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-09 21:39:44,966 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-09 21:39:51,111 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-09 21:39:56,868 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-09 21:40:00,444 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-09 21:40:03,996 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-09 21:40:16,936 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-09 21:40:30,012 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
+2023-01-09 21:40:40,607 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-09 21:40:51,944 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-09 21:46:17,161 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-09 21:46:21,058 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-09 21:46:23,648 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-09 21:46:40,915 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-09 21:46:48,260 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-09 21:47:50,972 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-09 21:47:56,271 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-09 21:47:59,806 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-09 21:48:04,747 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-09 21:48:09,385 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-09 21:48:22,008 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-09 21:48:25,560 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-09 21:48:28,316 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-09 21:48:38,495 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-09 21:48:46,889 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
+2023-01-09 21:48:53,846 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-09 21:48:59,782 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-09 22:04:22,844 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-09 22:04:26,388 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-09 22:04:28,310 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-09 22:04:42,409 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-09 22:04:47,657 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-09 22:04:50,723 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-09 22:04:53,907 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-09 22:04:58,198 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-09 22:05:02,852 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-09 22:05:09,527 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-09 22:05:12,865 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-09 22:05:16,356 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-09 22:05:23,259 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-09 22:05:30,088 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
+2023-01-09 22:05:35,774 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-09 22:05:39,359 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-09 22:08:50,905 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-09 22:08:54,270 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-09 22:08:56,549 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-09 22:09:06,524 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-09 22:09:11,007 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-09 22:09:13,534 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-09 22:09:16,086 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-09 22:09:19,543 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-09 22:09:23,379 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-09 22:09:27,400 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-09 22:09:28,858 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-09 22:09:30,330 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-09 22:09:36,384 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-09 22:09:41,968 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
+2023-01-09 22:09:45,585 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-09 22:09:48,286 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-09 22:10:49,848 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-09 22:11:55,319 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-09 22:13:02,284 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-09 22:14:04,638 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-09 22:26:24,737 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-09 22:26:26,870 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-09 22:26:28,378 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-09 22:26:40,468 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-09 22:29:34,596 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-09 22:29:38,498 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-09 22:29:42,327 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-09 22:29:51,482 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-09 22:29:56,788 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-09 22:30:00,063 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-09 22:30:04,085 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-09 22:30:08,740 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-09 22:30:12,226 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-09 22:30:15,912 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-09 22:30:17,580 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-09 22:30:19,580 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-09 22:30:25,881 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-09 22:30:31,095 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
+2023-01-09 22:30:35,279 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-09 22:30:37,910 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-09 22:30:39,399 [main] INFO testcases.CartSectionTest - Cart section on flipkart testcase passed successfully.
+2023-01-09 22:30:44,016 [main] INFO testcases.SellerLoginTest - Login the seller on flipkart testcase passed successfully.
+2023-01-09 22:30:53,418 [main] INFO testcases.SellerRegisterTest - Register the seller on flipkart testcase passed successfully.
+2023-01-09 22:30:55,389 [main] INFO testcases.HelpCenterTest - Help Center section on flipkart testcase passed successfully.
+2023-01-09 22:32:17,244 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-09 22:32:19,420 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-09 22:32:21,174 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-09 22:32:50,356 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-09 22:32:56,480 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-09 22:32:58,976 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-09 22:33:02,189 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-09 22:33:05,837 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-09 22:33:09,510 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-09 22:33:12,949 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-09 22:33:14,609 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-09 22:33:16,471 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-09 22:33:22,211 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-09 22:33:30,277 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
+2023-01-09 22:33:36,580 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-09 22:33:40,601 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-09 22:33:42,159 [main] INFO testcases.CartSectionTest - Cart section on flipkart testcase passed successfully.
+2023-01-09 22:33:48,024 [main] INFO testcases.SellerLoginTest - Login the seller on flipkart testcase passed successfully.
+2023-01-09 22:33:59,178 [main] INFO testcases.SellerRegisterTest - Register the seller on flipkart testcase passed successfully.
+2023-01-09 22:34:01,272 [main] INFO testcases.HelpCenterTest - Help Center section on flipkart testcase passed successfully.
+2023-01-09 22:35:51,417 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-09 22:35:53,391 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-09 22:35:55,316 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-09 22:36:11,725 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-09 22:36:16,587 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-09 22:36:21,563 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-09 22:36:26,092 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-09 22:36:31,806 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-09 22:38:50,911 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-09 22:38:53,751 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-09 22:38:55,167 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-09 22:38:56,645 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-09 22:39:02,275 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-09 22:39:06,033 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
+2023-01-09 22:39:09,438 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-09 22:39:12,804 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-09 22:39:14,182 [main] INFO testcases.CartSectionTest - Cart section on flipkart testcase passed successfully.
+2023-01-09 22:39:17,757 [main] INFO testcases.SellerLoginTest - Login the seller on flipkart testcase passed successfully.
+2023-01-09 22:39:27,073 [main] INFO testcases.SellerRegisterTest - Register the seller on flipkart testcase passed successfully.
+2023-01-09 22:39:28,478 [main] INFO testcases.HelpCenterTest - Help Center section on flipkart testcase passed successfully.
+2023-01-10 16:39:41,468 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-10 16:43:12,286 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-10 16:43:15,505 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-10 16:43:17,876 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-10 16:43:25,383 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-10 16:43:31,476 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-10 16:43:34,022 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-10 16:43:36,881 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-10 16:43:40,132 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-10 16:43:43,912 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-10 16:43:47,050 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-10 16:43:48,868 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-10 16:43:50,743 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-10 16:44:56,685 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-10 16:45:58,894 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 16:46:05,257 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-10 16:46:08,807 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-10 16:47:10,536 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 16:48:16,913 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 16:49:23,152 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 16:50:24,945 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 16:55:52,864 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-10 16:55:54,801 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-10 16:55:56,233 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-10 16:56:03,160 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-10 16:56:08,031 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-10 16:56:10,445 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-10 16:56:13,935 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-10 16:56:23,080 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-10 16:56:25,974 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-10 16:56:29,847 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-10 16:56:31,540 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-10 16:56:34,386 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-10 16:57:39,820 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-10 16:57:44,300 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
+2023-01-10 16:57:48,058 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-10 16:57:50,717 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-10 16:57:52,369 [main] INFO testcases.CartSectionTest - Cart section on flipkart testcase passed successfully.
+2023-01-10 16:57:56,352 [main] INFO testcases.SellerLoginTest - Login the seller on flipkart testcase passed successfully.
+2023-01-10 16:58:03,005 [main] INFO testcases.SellerRegisterTest - Register the seller on flipkart testcase passed successfully.
+2023-01-10 16:58:04,787 [main] INFO testcases.HelpCenterTest - Help Center section on flipkart testcase passed successfully.
+2023-01-10 17:00:06,683 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-10 17:00:11,882 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-10 17:00:13,594 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-10 17:00:26,403 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-10 17:00:32,366 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-10 17:00:34,569 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-10 17:01:45,362 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 17:07:38,170 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-10 17:07:40,042 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-10 17:07:41,501 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-10 17:07:52,775 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-10 17:08:00,914 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-10 17:09:02,307 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 17:09:04,700 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-10 17:09:07,300 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-10 17:09:09,738 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-10 17:09:12,121 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-10 17:09:13,444 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-10 17:09:15,057 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-10 17:09:18,894 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-10 17:09:22,499 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
+2023-01-10 17:09:25,522 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-10 17:09:27,703 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-10 17:10:28,969 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 17:11:35,052 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 17:12:40,858 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 17:13:42,849 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 17:15:34,406 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-10 17:15:37,378 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-10 17:15:39,302 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-10 17:15:57,205 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-10 17:16:01,776 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-10 17:16:04,236 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-10 17:16:06,934 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-10 17:16:10,617 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-10 17:16:15,907 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-10 17:16:19,027 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-10 17:16:20,776 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-10 17:16:22,330 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-10 17:16:27,136 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-10 17:16:32,076 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
+2023-01-10 17:16:37,096 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-10 17:16:40,542 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-10 17:17:42,234 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 17:18:50,493 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 17:19:56,610 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 17:20:59,138 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 17:23:54,587 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-10 17:23:58,215 [main] INFO testcases.SearchProductTest - Search a product on flipkart testcase passed successfully.
+2023-01-10 17:24:00,191 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-10 17:24:07,626 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-10 17:24:12,002 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-10 17:24:14,410 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-10 17:24:18,798 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-10 17:24:21,891 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-10 17:24:25,091 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-10 17:24:28,978 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-10 17:24:30,840 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-10 17:24:32,837 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-10 17:25:46,623 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-10 17:25:54,879 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
+2023-01-10 17:25:59,183 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-10 17:26:03,857 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-10 17:27:06,626 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 17:28:12,550 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 17:29:18,113 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 17:30:27,421 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 18:02:32,160 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-10 18:03:35,085 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 18:04:38,894 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-10 18:06:01,573 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-10 18:07:11,645 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-10 18:08:15,333 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-10 18:09:20,301 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-10 18:10:26,397 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-10 18:11:31,499 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-10 18:23:07,334 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-10 18:38:52,568 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-10 18:39:56,234 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 18:41:07,019 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-10 18:42:35,468 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-10 18:43:55,143 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-10 18:44:59,127 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-10 18:46:07,320 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-10 18:47:13,707 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-10 18:48:19,714 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-10 18:49:24,519 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-10 18:50:27,175 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-10 18:51:29,631 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-10 18:52:43,639 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-10 18:53:50,523 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
+2023-01-10 18:54:57,308 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-10 18:56:01,833 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-10 18:58:05,237 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 19:00:15,266 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 19:03:19,194 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 19:05:23,175 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 19:10:26,925 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-10 19:11:29,231 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 19:12:31,601 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-10 19:13:47,346 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-10 19:14:52,721 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-10 19:15:54,906 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-10 19:16:58,999 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-10 19:18:05,108 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-10 19:19:12,194 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-10 19:20:17,803 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-10 19:21:19,928 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-10 19:22:23,138 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-10 19:23:30,032 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-10 19:24:36,305 [main] INFO testcases.SellingGuideTest - Guidance to sellers on flipkart testcase passed successfully.
+2023-01-10 19:25:41,029 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-10 19:26:46,209 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-10 19:27:49,470 [main] INFO testcases.CartSectionTest - Cart section on flipkart testcase passed successfully.
+2023-01-10 19:29:00,170 [main] INFO testcases.SellerLoginTest - Login the seller on flipkart testcase passed successfully.
+2023-01-10 19:30:17,742 [main] INFO testcases.SellerRegisterTest - Register the seller on flipkart testcase passed successfully.
+2023-01-10 19:31:20,959 [main] INFO testcases.HelpCenterTest - Help Center section on flipkart testcase passed successfully.
+2023-01-10 19:52:28,809 [main] INFO testcases.LoginTest - User Login functionality on flipkart testcase passed successfully.
+2023-01-10 19:53:32,398 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 19:54:35,283 [main] INFO testcases.GrocerySectionTest - Grocery Section on flipkart testcase passed successfully.
+2023-01-10 19:56:00,764 [main] INFO testcases.SellerServicePageTest - Services offered by flipkart to sellers testcase passed successfully.
+2023-01-10 19:57:08,440 [main] INFO testcases.CustomerCareTest - Customer Care Section on flipkart testcase passed successfully.
+2023-01-10 19:58:12,305 [main] INFO testcases.TopOffersTest - Top Offers on flipkart testcase passed successfully.
+2023-01-10 19:59:16,354 [main] INFO testcases.MobileSectionTest - Mobile Sections on flipkart testcase passed successfully.
+2023-01-10 20:00:25,451 [main] INFO testcases.SortMobilePriceTest - Mobile Price filtered on flipkart testcase passed successfully.
+2023-01-10 20:01:39,539 [main] INFO testcases.NewMobileLaunchesTest - Sorted data of new mobiles arrival on flipkart testcase passed successfully.
+2023-01-10 20:02:48,978 [main] INFO testcases.HighPriceProductsTest - Product with high price is filtered and testcase passed successfully.
+2023-01-10 20:04:10,944 [main] INFO testcases.TermsofuseTest - Terms of use section on flipkart testcase passed successfully.
+2023-01-10 20:05:20,058 [main] INFO testcases.PrivacyPolicyTest - Privacy Policy Section on flipkart testcase passed successfully.
+2023-01-10 20:06:37,267 [main] INFO testcases.AchievementsellingTest - Sellers achievements section on flipkart testcase passed successfully.
+2023-01-10 20:08:45,678 [main] INFO pages.basePage - Screenshot capured on Failure
+2023-01-10 20:09:56,226 [main] INFO testcases.CustomerReviewsTest - Customer Review on flipkart testcase passed successfully.
+2023-01-10 20:11:17,573 [main] INFO testcases.ProductDetail - Search and then complete description of product on flipkart testcase passed successfully.
+2023-01-10 20:12:33,708 [main] INFO testcases.CartSectionTest - Cart section on flipkart testcase passed successfully.
+2023-01-10 20:13:58,871 [main] INFO testcases.SellerLoginTest - Login the seller on flipkart testcase passed successfully.
+2023-01-10 20:16:13,465 [main] INFO testcases.SellerRegisterTest - Register the seller on flipkart testcase passed successfully.
+2023-01-10 20:17:20,077 [main] INFO testcases.HelpCenterTest - Help Center section on flipkart testcase passed successfully.

@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Flipkart Selinium Project">
 
-<!-- 20 Passed Test Cases -->
+<!-- 20 Test Cases -->
 
   <test name="LoginTest">
     <classes>
@@ -13,18 +13,6 @@
   <test name="SearchProduct">
     <classes>
       <class name="testcases.SearchProductTest"/>
-    </classes>
-  </test>
-  
-  <test name="SellerRegister">
-    <classes>
-      <class name="testcases.SellerRegisterTest"/>
-    </classes>
-  </test>
-  
-  <test name="SellerLogin">
-    <classes>
-      <class name="testcases.SellerLoginTest"/>
     </classes>
   </test>
   
@@ -43,18 +31,6 @@
   <test name="CustomerCare">
     <classes>
       <class name="testcases.CustomerCareTest"/>
-    </classes>
-  </test>
-  
-  <test name="CartSection">
-    <classes>
-      <class name="testcases.CartSectionTest"/>
-    </classes>
-  </test>
-  
-  <test name="HelpCenter">
-    <classes>
-      <class name="testcases.HelpCenterTest"/>
     </classes>
   </test>
   
@@ -118,9 +94,34 @@
     </classes>
   </test>
   
-   <test name="ProductDetail">
+  <test name="ProductDetail">
     <classes>
       <class name="testcases.ProductDetail"/>
+    </classes>
+  </test>
+  
+  <!-- Failed Cases-->
+  <test name="CartSection">
+    <classes>
+      <class name="testcases.CartSectionTest"/>
+    </classes>
+  </test>
+  
+  <test name="SellerLogin">
+    <classes>
+      <class name="testcases.SellerLoginTest"/>
+    </classes>
+  </test>
+  
+  <test name="SellerRegister">
+    <classes>
+      <class name="testcases.SellerRegisterTest"/>
+    </classes>
+  </test>
+  
+  <test name="HelpCenter">
+    <classes>
+      <class name="testcases.HelpCenterTest"/>
     </classes>
   </test>
   

@@ -1,5 +1,6 @@
 package testcases;
 
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 import org.apache.log4j.*;
 
@@ -13,11 +14,18 @@ public class SellerLoginTest extends basePage {
 	
 	Logger log = LogManager.getLogger(SellerLoginTest.class);
 	
-	@Test
-	public void loginSeller() {
+	@Test(priority=18)
+	public void loginSeller() throws Throwable {
 		
-		//driver.findElement(sellerRegister.close_popup).click();
-		//test.log(LogStatus.INFO, "Close Popup button got clicked");
+		// ------------------------- Test Data from Excel File --------------------------------------
+		if (ExcelData.isExecuteCase("sellerlogin").equalsIgnoreCase("no"))
+            throw new SkipException("Skiped");
+		
+		//  ----------  Check if popup(login) appears automatically while running other tests, close the popup
+		try {
+			driver.findElement(sellerLogin.close_popup).click();
+			test.log(LogStatus.INFO, "Close Popup button got clicked");
+		}catch(Exception e) { }
 		
 		driver.findElement(sellerLogin.seller_page_login).click();
 		test.log(LogStatus.INFO, "Seller Login Page Button got clicked");

@@ -1,5 +1,6 @@
 package testcases;
 
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 import org.apache.log4j.*;
 
@@ -13,8 +14,18 @@ public class HighPriceProductsTest extends basePage {
 	
 	Logger log = LogManager.getLogger(HighPriceProductsTest.class);
 	
-	@Test
-	public void highPriceProducts() {
+	@Test(priority=10)
+	public void highPriceProducts() throws Throwable {
+		
+		// ------------------------- Test Data from Excel File --------------------------------------
+		if (ExcelData.isExecuteCase("highprice").equalsIgnoreCase("no"))
+            throw new SkipException("Skiped");
+		
+		//  ----------  Check if popup(login) appears automatically while running other tests, close the popup
+		try {
+			driver.findElement(highPriceProducts.close_popup).click();
+			test.log(LogStatus.INFO, "Close Popup button got clicked");
+		}catch(Exception e) { }
 		
 		driver.findElement(highPriceProducts.mobile_page_link).click();
 		test.log(LogStatus.INFO, "Redicrected to Mobile Page");

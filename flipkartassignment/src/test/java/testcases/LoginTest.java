@@ -1,6 +1,7 @@
 package testcases;
 
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.apache.log4j.*;
 
 import org.testng.annotations.Test;
@@ -16,8 +17,12 @@ public class LoginTest extends basePage {
 	
 	Logger log = LogManager.getLogger(LoginTest.class);
 	
-	@Test
-	public void login() {
+	@Test(priority=1)
+	public void login() throws Throwable {
+		
+		// ------------------------- Test Data from Excel File --------------------------------------
+		if (ExcelData.isExecuteCase("logintest").equalsIgnoreCase("no"))
+            throw new SkipException("Skiped");
 		
 		driver.findElement(loginPage.txt_username).sendKeys(ReadingPropertiesFile.getProperty("username"));
 		test.log(LogStatus.INFO, "Username Input box popped up");

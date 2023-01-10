@@ -1,5 +1,6 @@
 package testcases;
 
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 import org.apache.log4j.*;
 
@@ -13,8 +14,19 @@ public class ProductDetail extends basePage {
 	
 	Logger log = LogManager.getLogger(ProductDetail.class);
 	
-	@Test
-	public void productDetail() {
+	@Test(priority=16)
+	public void productDetail() throws Throwable {
+		
+		// ------------------------- Test Data from Excel File --------------------------------------
+		if (ExcelData.isExecuteCase("productdetail").equalsIgnoreCase("no"))
+            throw new SkipException("Skiped");
+		
+		//  ----------  Check if popup(login) appears automatically while running other tests, close the popup
+		try {
+			driver.findElement(productDetail.close_popup).click();
+			test.log(LogStatus.INFO, "Close Popup button got clicked");
+		}catch(Exception e) { }
+
 		
 		driver.findElement(productDetail.txt_username).sendKeys(ReadingPropertiesFile.getProperty("productName"));
 		test.log(LogStatus.INFO, "Text is input in the text box");
